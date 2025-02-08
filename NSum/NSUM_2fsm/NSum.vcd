@@ -1,0 +1,226 @@
+$date
+	Sat Feb  8 13:18:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module NSum_tb $end
+$var wire 1 ! sum_valid $end
+$var wire 4 " sum [3:0] $end
+$var reg 3 # N [2:0] $end
+$var reg 1 $ N_valid $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$scope module uut $end
+$var wire 3 ' N [2:0] $end
+$var wire 1 $ N_valid $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var wire 4 ( sum_mux [3:0] $end
+$var wire 3 ) in_mux [2:0] $end
+$var wire 1 * i_eq_1 $end
+$var wire 4 + add_out [3:0] $end
+$var parameter 32 , busy $end
+$var parameter 32 - idle $end
+$var reg 3 . i [2:0] $end
+$var reg 1 / state $end
+$var reg 4 0 sum [3:0] $end
+$var reg 1 ! sum_valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 -
+b1 ,
+$end
+#0
+$dumpvars
+bx 0
+x/
+bx .
+bx +
+x*
+bx )
+bx (
+bx '
+0&
+1%
+0$
+bx #
+bx "
+x!
+$end
+#2
+1&
+#5
+0%
+#10
+b0 (
+0/
+1%
+#12
+0&
+#15
+0%
+#17
+b101 )
+1$
+b101 #
+b101 '
+#20
+b100 )
+b101 (
+1/
+b101 +
+b0 "
+b0 0
+0*
+b101 .
+1%
+#25
+0%
+#27
+0$
+#30
+b11 )
+b1001 (
+0!
+b101 "
+b101 0
+b1001 +
+b100 .
+1%
+#35
+0%
+#40
+b10 )
+b1100 (
+b1001 "
+b1001 0
+b1100 +
+b11 .
+1%
+#45
+0%
+#47
+1$
+b100 #
+b100 '
+#50
+b1 )
+b1110 (
+b1100 "
+b1100 0
+b1110 +
+b10 .
+1%
+#55
+0%
+#57
+0$
+#60
+b0 )
+b1111 (
+b1110 "
+b1110 0
+b1111 +
+1*
+b1 .
+1%
+#65
+0%
+#70
+b100 )
+b0 (
+0/
+1!
+b1111 "
+b1111 0
+b1111 +
+0*
+b0 .
+1%
+#75
+0%
+#80
+0!
+b0 "
+b0 0
+b100 +
+b100 .
+1%
+#85
+0%
+#90
+1%
+#95
+0%
+#100
+1%
+#105
+0%
+#110
+1%
+#115
+0%
+#120
+1%
+#125
+0%
+#130
+1%
+#135
+0%
+#140
+1%
+#145
+0%
+#150
+1%
+#155
+0%
+#160
+1%
+#165
+0%
+#170
+1%
+#175
+0%
+#180
+1%
+#185
+0%
+#190
+1%
+#195
+0%
+#200
+1%
+#205
+0%
+#210
+1%
+#215
+0%
+#220
+1%
+#225
+0%
+#230
+1%
+#235
+0%
+#240
+1%
+#245
+0%
+#250
+1%
+#255
+0%
+#257
